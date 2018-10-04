@@ -1,10 +1,10 @@
 # tictacNET
 > Solving Tic-Tac-Toe with Neural Networks.
 
-## Install tensorflow
+## Install TensorFlow and other packages
 
 ```bash
-> pip install tensorflow
+> pip install tensorflow sklearn pandas
 ```
 
 ## Fork and Clone
@@ -17,5 +17,5 @@ Click on `Star` and then `Fork` to get your own copy to work with.
 
 ## Plan for the Day
 
-- Tic-Tac-Toe using tensorflow and keras
-- Solving partial differential equations with tensorflow
+- [ ] Tic-Tac-Toe using TensorFlow and Keras.
+- [ ] Solving differential equations with TensorFlow.
