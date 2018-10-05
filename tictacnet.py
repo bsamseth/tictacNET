@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from collections import Counter
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score
 
 
 def move_accuracy(y_test, y_pred):
@@ -42,6 +42,9 @@ model.compile(optimizer="adam", loss="categorical_crossentropy", metrics=["accur
 
 print(model.summary())
 
+# This is not needed, but lets you view a lot of useful information using
+# > tensorboard --logdir logs
+# at your terminal prompt.
 tensorboard_callback = tf.keras.callbacks.TensorBoard(
     log_dir="./logs",
     histogram_freq=1,
