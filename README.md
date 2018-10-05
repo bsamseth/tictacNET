@@ -7,15 +7,7 @@
 > pip install tensorflow sklearn pandas
 ```
 
-## Fork and Clone
+## How to use this
 
-Click on `Star` and then `Fork` to get your own copy to work with. 
-
-```bash
-> git clone <your repo url here>
-```
-
-## Plan for the Day
-
-- [ ] Tic-Tac-Toe using TensorFlow and Keras.
-- [ ] Solving differential equations with TensorFlow.
+Run `tictacnet.py` to train your model. Then play it using by running `play.py`.
+Feel free to tune what ever you want in the model and see how good (or bad!) you can make it.
