@@ -64,3 +64,5 @@ model.fit(
 
 print("accuracy:", model.evaluate(X_test, y_test))
 print("Custom accuracy:", move_accuracy(y_test.values, model.predict(X_test)))
+
+model.save("tictacNET.h5")
